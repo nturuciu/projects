@@ -22,9 +22,9 @@ const events = [
   
   // WeakMap to store event organizers
   const organizers = new Map();
-  organizers.set(events[0].title, "Organizer A");
-  organizers.set(events[1].title, "Organizer B");
-  organizers.set(events[2].title, "Organizer C");
+  organizers.set(events[0].title, "Michal");
+  organizers.set(events[1].title, "Zack");
+  organizers.set(events[2].title, "Mitch");
   
   // Function to add an attendee to an event
   function addAttendee(eventTitle, attendeeName) {
